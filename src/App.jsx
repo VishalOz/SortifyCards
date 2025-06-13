@@ -3,44 +3,111 @@ import './App.css'
 
 const App = () => {
   return (
-    <div className="flex flex-col gap-10 p-[200px] items-ceneter  bg-white">
+    <div className="flex flex-col gap-10 p-20 items-center bg-white">
 
-      <div className="flex flex-row w-[100%] h-[300px] p-4 bg-gray-100 rounded-lg shadow-lg">
-        <img src="https://monatglobal.com/au/wp-content/uploads/sites/12/2023/11/early-bright-au-ecomm-haircare-starter.jpg"
-        className="w-[320px] h-[270px] rounded-lg shadow-lg"></img>
-        <p></p>
+      {/* Monat Beauticare Pack */}
+      <div className="flex flex-row items-center w-full max-w-4xl p-6 bg-white rounded-2xl shadow-md space-x-6">
+        <img
+          src="https://monatglobal.com/au/wp-content/uploads/sites/12/2023/11/early-bright-au-ecomm-haircare-starter.jpg"
+          alt="Monat Beauticare Pack"
+          className="w-60 h-60 object-cover rounded-xl shadow-sm"
+        />
+        <div className="flex flex-col">
+          <h2 className="text-2xl font-semibold text-gray-800 font-poppins">
+            Monat Beauticare Pack
+          </h2>
+          <p className="text-gray-600 mt-2 max-w-md font-light leading-relaxed">
+            A premium hair and skincare starter pack designed to refresh, hydrate, and
+            rejuvenate your daily routine. Ideal for all hair types and skin tones.
+          </p>
+        </div>
       </div>
 
-      <div className="flex flex-row w-[100%] h-[300px] p-4 bg-gray-100 rounded-lg shadow-lg">
-        <img src="https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/www.powproductphotography.com/wp-content/uploads/2021/06/white-on-white-product-photography-11.jpg"
-        className="w-[320px] h-[270px] rounded-lg shadow-lg"></img>
-        <p></p>
+      {/* Verb Ghost Shampoo */}
+      <div className="flex flex-row items-center w-full max-w-4xl p-6 bg-white rounded-2xl shadow-md space-x-6">
+        <img
+          src="https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/www.powproductphotography.com/wp-content/uploads/2021/06/white-on-white-product-photography-11.jpg"
+          alt="Verb Ghost Shampoo"
+          className="w-60 h-60 object-cover rounded-xl shadow-sm"
+        />
+        <div className="flex flex-col">
+          <h2 className="text-2xl font-semibold text-gray-800 font-poppins">
+            Verb Ghost Shampoo
+          </h2>
+          <p className="text-gray-600 mt-2 max-w-md font-light leading-relaxed">
+            Lightweight shampoo that smooths frizz and gently cleanses. Infused with moringa oil for silky, airy hair.
+          </p>
+        </div>
       </div>
 
-      <div className="flex flex-row w-[100%] h-[300px] p-4 bg-gray-100 rounded-lg shadow-lg">
-        <img src="https://www.armankophotography.com/wp-content/uploads/2024/09/Makeup-product-photography-for-website-listing-on-white-background.jpg"
-        className="w-[320px] h-[270px] rounded-lg shadow-lg"></img>
-        <p></p>
+      {/* Tiffany Face Serum */}
+      <div className="flex flex-row items-center w-full max-w-4xl p-6 bg-white rounded-2xl shadow-md space-x-6">
+        <img
+          src="https://www.armankophotography.com/wp-content/uploads/2024/09/Makeup-product-photography-for-website-listing-on-white-background.jpg"
+          alt="Tiffany Face Serum"
+          className="w-60 h-60 object-cover rounded-xl shadow-sm"
+        />
+        <div className="flex flex-col">
+          <h2 className="text-2xl font-semibold text-gray-800 font-poppins">
+            Tiffany Face Serum
+          </h2>
+          <p className="text-gray-600 mt-2 max-w-md font-light leading-relaxed">
+            A hydration-rich facial serum that brightens and tones. Boosts collagen for a youthful glow.
+          </p>
+        </div>
       </div>
 
-      <div className="flex flex-row w-[100%] h-[300px] p-4 bg-gray-100 rounded-lg shadow-lg">
-        <img src="https://5.imimg.com/data5/SELLER/Default/2022/1/VP/OV/VN/104752620/photography-white-background-500x500.jpg"
-        className="w-[320px] h-[270px] rounded-lg shadow-lg"></img>
-        <p></p>
+      {/* Skin Formula 9 */}
+      <div className="flex flex-row items-center w-full max-w-4xl p-6 bg-white rounded-2xl shadow-md space-x-6">
+        <img
+          src="https://5.imimg.com/data5/SELLER/Default/2022/1/VP/OV/VN/104752620/photography-white-background-500x500.jpg"
+          alt="Skin Formula 9"
+          className="w-60 h-60 object-cover rounded-xl shadow-sm"
+        />
+        <div className="flex flex-col">
+          <h2 className="text-2xl font-semibold text-gray-800 font-poppins">
+            Skin Formula 9
+          </h2>
+          <p className="text-gray-600 mt-2 max-w-md font-light leading-relaxed">
+            Targets dryness, blemishes, and uneven tone with a potent blend of botanicals and vitamins.
+          </p>
+        </div>
       </div>
 
-      <div className="flex flex-row w-[100%] h-[300px] p-4 bg-gray-100 rounded-lg shadow-lg">
-        <img src="https://thesuuk.com/cdn/shop/files/Lote_CoBlackSeed500gMockUp01.jpg?v=1694899778"
-        className="w-[320px] h-[270px] rounded-lg shadow-lg"></img>
-        <p></p>
+      {/* SIDR Honey */}
+      <div className="flex flex-row items-center w-full max-w-4xl p-6 bg-white rounded-2xl shadow-md space-x-6">
+        <img
+          src="https://thesuuk.com/cdn/shop/files/Lote_CoBlackSeed500gMockUp01.jpg?v=1694899778"
+          alt="SIDR Honey"
+          className="w-60 h-60 object-cover rounded-xl shadow-sm"
+        />
+        <div className="flex flex-col">
+          <h2 className="text-2xl font-semibold text-gray-800 font-poppins">
+            SIDR Honey
+          </h2>
+          <p className="text-gray-600 mt-2 max-w-md font-light leading-relaxed">
+            100% raw honey from the Sidr tree. Naturally rich in antioxidants and immune-boosting nutrients.
+          </p>
+        </div>
       </div>
 
-      <div className="flex flex-row w-[100%] h-[300px] p-4 bg-gray-100 rounded-lg shadow-lg">
-        <img src="https://i.pinimg.com/736x/84/f5/3c/84f53c5bd502c3f45e1a33ab828abd54.jpg"
-        className="w-[320px] h-[270px] rounded-lg shadow-lg"></img>
-        <p></p>
+      {/* Milk and Honey */}
+      <div className="flex flex-row items-center w-full max-w-4xl p-6 bg-white rounded-2xl shadow-md space-x-6">
+        <img
+          src="https://i.pinimg.com/736x/84/f5/3c/84f53c5bd502c3f45e1a33ab828abd54.jpg"
+          alt="Milk and Honey"
+          className="w-60 h-60 object-cover rounded-xl shadow-sm"
+        />
+        <div className="flex flex-col">
+          <h2 className="text-2xl font-semibold text-gray-800 font-poppins">
+            Milk and Honey
+          </h2>
+          <p className="text-gray-600 mt-2 max-w-md font-light leading-relaxed">
+            A calming blend of milk and honey extract. Softens the skin and leaves a lasting silky touch.
+          </p>
+        </div>
       </div>
-      
+
     </div>
   )
 }
