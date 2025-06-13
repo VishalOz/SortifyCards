@@ -5,6 +5,23 @@ const App = () => {
   return (
     <div className="flex flex-col gap-10 p-20 items-center bg-white">
 
+        <div className="flex justify-end w-full max-w-4xl mb-4">
+          <label className="mr-2 text-gray-700 font-medium" htmlFor="sort">
+            Sort by:
+          </label>
+          <select
+            id="sort"
+            name="sort"
+            className="border border-gray-300 rounded-lg px-4 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
+          >
+            <option value="popular">Most Popular</option>
+            <option value="low-to-high">Price: Low to High</option>
+            <option value="high-to-low">Price: High to Low</option>
+            <option value="release-date">Release Date</option>
+          </select>
+        </div>
+
+
       {/* Monat Beauticare Pack */}
       <div className="flex flex-row items-center w-full max-w-4xl p-6 bg-white rounded-2xl shadow-md space-x-6">
         <img
