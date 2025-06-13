@@ -3,7 +3,11 @@ import './App.css'
 
 const App = () => {
   return (
-    <div className="flex flex-col gap-10 p-20 items-center bg-white">
+    <div className="flex flex-col gap-10 p-20 items-center bg-white bg-gray-100 
+    bg-[url('https://assets.isu.pub/document-structure/250214093211-6f229dd00cb4e53040c0bc240ce71a02/v1/ffdfb89a15ce4483cced192600be249b.jpeg')]
+    bg-cover bg-no-repeat bg-center min-h-screen">
+      <h1 className="text-4xl font-bold text-white mb-6 font-poppins ">Our Beauty Products</h1>
+
 
         <div className="flex justify-end w-full max-w-4xl mb-4">
           <label className="mr-2 text-gray-700 font-medium" htmlFor="sort">
@@ -37,6 +41,7 @@ const App = () => {
             A premium hair and skincare starter pack designed to refresh, hydrate, and
             rejuvenate your daily routine. Ideal for all hair types and skin tones.
           </p>
+          <p className="text-lg font-bold text-black mt-4"> Rs. 12'000</p>
         </div>
       </div>
 
@@ -54,6 +59,7 @@ const App = () => {
           <p className="text-gray-600 mt-2 max-w-md font-light leading-relaxed">
             Lightweight shampoo that smooths frizz and gently cleanses. Infused with moringa oil for silky, airy hair.
           </p>
+          <p className="text-lg font-bold text-black mt-4"> Rs. 8500</p>
         </div>
       </div>
 
@@ -71,6 +77,7 @@ const App = () => {
           <p className="text-gray-600 mt-2 max-w-md font-light leading-relaxed">
             A hydration-rich facial serum that brightens and tones. Boosts collagen for a youthful glow.
           </p>
+          <p className="text-lg font-bold text-black mt-4"> Rs. 5000</p>
         </div>
       </div>
 
@@ -88,6 +95,7 @@ const App = () => {
           <p className="text-gray-600 mt-2 max-w-md font-light leading-relaxed">
             Targets dryness, blemishes, and uneven tone with a potent blend of botanicals and vitamins.
           </p>
+          <p className="text-lg font-bold text-black mt-4"> Rs. 9600</p>
         </div>
       </div>
 
@@ -105,6 +113,7 @@ const App = () => {
           <p className="text-gray-600 mt-2 max-w-md font-light leading-relaxed">
             100% raw honey from the Sidr tree. Naturally rich in antioxidants and immune-boosting nutrients.
           </p>
+          <p className="text-lg font-bold text-black mt-4"> Rs. 23'000</p>
         </div>
       </div>
 
@@ -122,6 +131,7 @@ const App = () => {
           <p className="text-gray-600 mt-2 max-w-md font-light leading-relaxed">
             A calming blend of milk and honey extract. Softens the skin and leaves a lasting silky touch.
           </p>
+          <p className="text-lg font-bold text-black mt-4"> Rs. 22'000</p>
         </div>
       </div>
 
